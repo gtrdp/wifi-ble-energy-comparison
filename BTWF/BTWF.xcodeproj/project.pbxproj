@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C371FD5062E24D0E0CA31A7 /* Pods_BTWF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7B32B8D539C90944D2C995 /* Pods_BTWF.framework */; };
+		518ADC671CCFBED8006028B8 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518ADC661CCFBED7006028B8 /* SettingsViewController.swift */; };
+		518ADC691CCFCD6D006028B8 /* SelectMethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518ADC681CCFCD6D006028B8 /* SelectMethodViewController.swift */; };
+		518ADC6B1CE24254006028B8 /* WiFiComViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518ADC6A1CE24254006028B8 /* WiFiComViewController.swift */; };
+		518ADC731CEB5B07006028B8 /* BTComViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518ADC721CEB5B07006028B8 /* BTComViewController.swift */; };
+		518ADC751CF5BA01006028B8 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518ADC741CF5BA01006028B8 /* HistoryTableViewController.swift */; };
+		518ADC791CF5C583006028B8 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518ADC781CF5C583006028B8 /* HistoryTableViewCell.swift */; };
+		518ADC7B1CF5DF15006028B8 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518ADC7A1CF5DF15006028B8 /* History.swift */; };
+		518EEA401CC7F1C10087ED50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518EEA3F1CC7F1C10087ED50 /* AppDelegate.swift */; };
+		518EEA451CC7F1C10087ED50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 518EEA431CC7F1C10087ED50 /* Main.storyboard */; };
+		518EEA471CC7F1C10087ED50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 518EEA461CC7F1C10087ED50 /* Assets.xcassets */; };
+		518EEA4A1CC7F1C10087ED50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 518EEA481CC7F1C10087ED50 /* LaunchScreen.storyboard */; };
+		518EEA551CC7F1C10087ED50 /* BTWFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518EEA541CC7F1C10087ED50 /* BTWFTests.swift */; };
+		518EEA601CC7F1C10087ED50 /* BTWFUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518EEA5F1CC7F1C10087ED50 /* BTWFUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		518EEA511CC7F1C10087ED50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 518EEA341CC7F1C10087ED50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 518EEA3B1CC7F1C10087ED50;
+			remoteInfo = BTWF;
+		};
+		518EEA5C1CC7F1C10087ED50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 518EEA341CC7F1C10087ED50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 518EEA3B1CC7F1C10087ED50;
+			remoteInfo = BTWF;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2821D8D2E3868B0DD44A1986 /* Pods-BTWF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTWF.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BTWF/Pods-BTWF.debug.xcconfig"; sourceTree = "<group>"; };
+		3C7B32B8D539C90944D2C995 /* Pods_BTWF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTWF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		518ADC661CCFBED7006028B8 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		518ADC681CCFCD6D006028B8 /* SelectMethodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectMethodViewController.swift; sourceTree = "<group>"; };
+		518ADC6A1CE24254006028B8 /* WiFiComViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WiFiComViewController.swift; sourceTree = "<group>"; };
+		518ADC721CEB5B07006028B8 /* BTComViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTComViewController.swift; sourceTree = "<group>"; };
+		518ADC741CF5BA01006028B8 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		518ADC781CF5C583006028B8 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		518ADC7A1CF5DF15006028B8 /* History.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		518EEA3C1CC7F1C10087ED50 /* BTWF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTWF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		518EEA3F1CC7F1C10087ED50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		518EEA441CC7F1C10087ED50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		518EEA461CC7F1C10087ED50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		518EEA491CC7F1C10087ED50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		518EEA4B1CC7F1C10087ED50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		518EEA501CC7F1C10087ED50 /* BTWFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTWFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		518EEA541CC7F1C10087ED50 /* BTWFTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTWFTests.swift; sourceTree = "<group>"; };
+		518EEA561CC7F1C10087ED50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		518EEA5B1CC7F1C10087ED50 /* BTWFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTWFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		518EEA5F1CC7F1C10087ED50 /* BTWFUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTWFUITests.swift; sourceTree = "<group>"; };
+		518EEA611CC7F1C10087ED50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		699CF3B5AB0DA8D2D816465E /* Pods-BTWF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTWF.release.xcconfig"; path = "Pods/Target Support Files/Pods-BTWF/Pods-BTWF.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		518EEA391CC7F1C10087ED50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C371FD5062E24D0E0CA31A7 /* Pods_BTWF.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		518EEA4D1CC7F1C10087ED50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		518EEA581CC7F1C10087ED50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		518ADC761CF5C52B006028B8 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				518ADC741CF5BA01006028B8 /* HistoryTableViewController.swift */,
+				518ADC781CF5C583006028B8 /* HistoryTableViewCell.swift */,
+				518ADC7A1CF5DF15006028B8 /* History.swift */,
+			);
+			name = History;
+			sourceTree = "<group>";
+		};
+		518ADC771CF5C55C006028B8 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				518ADC721CEB5B07006028B8 /* BTComViewController.swift */,
+				518ADC6A1CE24254006028B8 /* WiFiComViewController.swift */,
+				518ADC661CCFBED7006028B8 /* SettingsViewController.swift */,
+				518ADC681CCFCD6D006028B8 /* SelectMethodViewController.swift */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		518EEA331CC7F1C10087ED50 = {
+			isa = PBXGroup;
+			children = (
+				518EEA3E1CC7F1C10087ED50 /* BTWF */,
+				518EEA531CC7F1C10087ED50 /* BTWFTests */,
+				518EEA5E1CC7F1C10087ED50 /* BTWFUITests */,
+				518EEA3D1CC7F1C10087ED50 /* Products */,
+				6227EB442B45DA93BE321173 /* Pods */,
+				66DE6CF73CB9001B3CA92112 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		518EEA3D1CC7F1C10087ED50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				518EEA3C1CC7F1C10087ED50 /* BTWF.app */,
+				518EEA501CC7F1C10087ED50 /* BTWFTests.xctest */,
+				518EEA5B1CC7F1C10087ED50 /* BTWFUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		518EEA3E1CC7F1C10087ED50 /* BTWF */ = {
+			isa = PBXGroup;
+			children = (
+				518EEA3F1CC7F1C10087ED50 /* AppDelegate.swift */,
+				518ADC761CF5C52B006028B8 /* History */,
+				518ADC771CF5C55C006028B8 /* Settings */,
+				518EEA431CC7F1C10087ED50 /* Main.storyboard */,
+				518EEA481CC7F1C10087ED50 /* LaunchScreen.storyboard */,
+				518EEA461CC7F1C10087ED50 /* Assets.xcassets */,
+				518EEA4B1CC7F1C10087ED50 /* Info.plist */,
+			);
+			path = BTWF;
+			sourceTree = "<group>";
+		};
+		518EEA531CC7F1C10087ED50 /* BTWFTests */ = {
+			isa = PBXGroup;
+			children = (
+				518EEA541CC7F1C10087ED50 /* BTWFTests.swift */,
+				518EEA561CC7F1C10087ED50 /* Info.plist */,
+			);
+			path = BTWFTests;
+			sourceTree = "<group>";
+		};
+		518EEA5E1CC7F1C10087ED50 /* BTWFUITests */ = {
+			isa = PBXGroup;
+			children = (
+				518EEA5F1CC7F1C10087ED50 /* BTWFUITests.swift */,
+				518EEA611CC7F1C10087ED50 /* Info.plist */,
+			);
+			path = BTWFUITests;
+			sourceTree = "<group>";
+		};
+		6227EB442B45DA93BE321173 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2821D8D2E3868B0DD44A1986 /* Pods-BTWF.debug.xcconfig */,
+				699CF3B5AB0DA8D2D816465E /* Pods-BTWF.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		66DE6CF73CB9001B3CA92112 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C7B32B8D539C90944D2C995 /* Pods_BTWF.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		518EEA3B1CC7F1C10087ED50 /* BTWF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 518EEA641CC7F1C10087ED50 /* Build configuration list for PBXNativeTarget "BTWF" */;
+			buildPhases = (
+				8BF5092FD0811A24816A48DC /* 📦 Check Pods Manifest.lock */,
+				518EEA381CC7F1C10087ED50 /* Sources */,
+				518EEA391CC7F1C10087ED50 /* Frameworks */,
+				518EEA3A1CC7F1C10087ED50 /* Resources */,
+				1DA11F94F1B0A8DBD07FEF3A /* 📦 Embed Pods Frameworks */,
+				D113D307C16EF41DB66A007B /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTWF;
+			productName = BTWF;
+			productReference = 518EEA3C1CC7F1C10087ED50 /* BTWF.app */;
+			productType = "com.apple.product-type.application";
+		};
+		518EEA4F1CC7F1C10087ED50 /* BTWFTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 518EEA671CC7F1C10087ED50 /* Build configuration list for PBXNativeTarget "BTWFTests" */;
+			buildPhases = (
+				518EEA4C1CC7F1C10087ED50 /* Sources */,
+				518EEA4D1CC7F1C10087ED50 /* Frameworks */,
+				518EEA4E1CC7F1C10087ED50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				518EEA521CC7F1C10087ED50 /* PBXTargetDependency */,
+			);
+			name = BTWFTests;
+			productName = BTWFTests;
+			productReference = 518EEA501CC7F1C10087ED50 /* BTWFTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		518EEA5A1CC7F1C10087ED50 /* BTWFUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 518EEA6A1CC7F1C10087ED50 /* Build configuration list for PBXNativeTarget "BTWFUITests" */;
+			buildPhases = (
+				518EEA571CC7F1C10087ED50 /* Sources */,
+				518EEA581CC7F1C10087ED50 /* Frameworks */,
+				518EEA591CC7F1C10087ED50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				518EEA5D1CC7F1C10087ED50 /* PBXTargetDependency */,
+			);
+			name = BTWFUITests;
+			productName = BTWFUITests;
+			productReference = 518EEA5B1CC7F1C10087ED50 /* BTWFUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		518EEA341CC7F1C10087ED50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Guntur Dharma Putra";
+				TargetAttributes = {
+					518EEA3B1CC7F1C10087ED50 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = NNP888AU37;
+					};
+					518EEA4F1CC7F1C10087ED50 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = NNP888AU37;
+						TestTargetID = 518EEA3B1CC7F1C10087ED50;
+					};
+					518EEA5A1CC7F1C10087ED50 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = NNP888AU37;
+						TestTargetID = 518EEA3B1CC7F1C10087ED50;
+					};
+				};
+			};
+			buildConfigurationList = 518EEA371CC7F1C10087ED50 /* Build configuration list for PBXProject "BTWF" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 518EEA331CC7F1C10087ED50;
+			productRefGroup = 518EEA3D1CC7F1C10087ED50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				518EEA3B1CC7F1C10087ED50 /* BTWF */,
+				518EEA4F1CC7F1C10087ED50 /* BTWFTests */,
+				518EEA5A1CC7F1C10087ED50 /* BTWFUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		518EEA3A1CC7F1C10087ED50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				518EEA4A1CC7F1C10087ED50 /* LaunchScreen.storyboard in Resources */,
+				518EEA471CC7F1C10087ED50 /* Assets.xcassets in Resources */,
+				518EEA451CC7F1C10087ED50 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		518EEA4E1CC7F1C10087ED50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		518EEA591CC7F1C10087ED50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DA11F94F1B0A8DBD07FEF3A /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BTWF/Pods-BTWF-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BF5092FD0811A24816A48DC /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D113D307C16EF41DB66A007B /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BTWF/Pods-BTWF-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		518EEA381CC7F1C10087ED50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				518ADC6B1CE24254006028B8 /* WiFiComViewController.swift in Sources */,
+				518ADC731CEB5B07006028B8 /* BTComViewController.swift in Sources */,
+				518ADC7B1CF5DF15006028B8 /* History.swift in Sources */,
+				518ADC791CF5C583006028B8 /* HistoryTableViewCell.swift in Sources */,
+				518ADC751CF5BA01006028B8 /* HistoryTableViewController.swift in Sources */,
+				518EEA401CC7F1C10087ED50 /* AppDelegate.swift in Sources */,
+				518ADC691CCFCD6D006028B8 /* SelectMethodViewController.swift in Sources */,
+				518ADC671CCFBED8006028B8 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		518EEA4C1CC7F1C10087ED50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				518EEA551CC7F1C10087ED50 /* BTWFTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		518EEA571CC7F1C10087ED50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				518EEA601CC7F1C10087ED50 /* BTWFUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		518EEA521CC7F1C10087ED50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 518EEA3B1CC7F1C10087ED50 /* BTWF */;
+			targetProxy = 518EEA511CC7F1C10087ED50 /* PBXContainerItemProxy */;
+		};
+		518EEA5D1CC7F1C10087ED50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 518EEA3B1CC7F1C10087ED50 /* BTWF */;
+			targetProxy = 518EEA5C1CC7F1C10087ED50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		518EEA431CC7F1C10087ED50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				518EEA441CC7F1C10087ED50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		518EEA481CC7F1C10087ED50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				518EEA491CC7F1C10087ED50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		518EEA621CC7F1C10087ED50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		518EEA631CC7F1C10087ED50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		518EEA651CC7F1C10087ED50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2821D8D2E3868B0DD44A1986 /* Pods-BTWF.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = BTWF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = id.gtrdp.BTWF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		518EEA661CC7F1C10087ED50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 699CF3B5AB0DA8D2D816465E /* Pods-BTWF.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = BTWF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = id.gtrdp.BTWF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		518EEA681CC7F1C10087ED50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BTWFTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = id.gtrdp.BTWFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BTWF.app/BTWF";
+			};
+			name = Debug;
+		};
+		518EEA691CC7F1C10087ED50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BTWFTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = id.gtrdp.BTWFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BTWF.app/BTWF";
+			};
+			name = Release;
+		};
+		518EEA6B1CC7F1C10087ED50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BTWFUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = id.gtrdp.BTWFUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BTWF;
+			};
+			name = Debug;
+		};
+		518EEA6C1CC7F1C10087ED50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BTWFUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = id.gtrdp.BTWFUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BTWF;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		518EEA371CC7F1C10087ED50 /* Build configuration list for PBXProject "BTWF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				518EEA621CC7F1C10087ED50 /* Debug */,
+				518EEA631CC7F1C10087ED50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		518EEA641CC7F1C10087ED50 /* Build configuration list for PBXNativeTarget "BTWF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				518EEA651CC7F1C10087ED50 /* Debug */,
+				518EEA661CC7F1C10087ED50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		518EEA671CC7F1C10087ED50 /* Build configuration list for PBXNativeTarget "BTWFTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				518EEA681CC7F1C10087ED50 /* Debug */,
+				518EEA691CC7F1C10087ED50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		518EEA6A1CC7F1C10087ED50 /* Build configuration list for PBXNativeTarget "BTWFUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				518EEA6B1CC7F1C10087ED50 /* Debug */,
+				518EEA6C1CC7F1C10087ED50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 518EEA341CC7F1C10087ED50 /* Project object */;
+}
